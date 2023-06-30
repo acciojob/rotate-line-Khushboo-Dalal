@@ -1,10 +1,25 @@
 /*  your css code here. If applicable */
-#line {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform-origin: left center;
-            background-color: black;
-            width: 200px;
-            height: 2px;
-        }
+#line{
+    background-color: black;
+    width: 200px;
+    height: 2px;
+animation: rot 1s linear infinite;
+	position:absolute;
+}
+@keyframes rot{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(90deg);
+    }
+    40%{
+        transform: rotateZ(180deg);
+    }
+    60%{
+        transform: rotateZ(270deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

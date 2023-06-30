@@ -1,5 +1,5 @@
 //your JS code here. If required.
- const line = document.getElementById('line');
+ /*const line = document.getElementById('line');
 
         // Rotation angle in degrees
         let angle = 0;
@@ -14,4 +14,4 @@
         }
 
         // Start the rotation
-        rotateLine();
+        rotateLine();*/
