@@ -1,15 +1,17 @@
 //your JS code here. If required.
-/*const line = document.getElementById('line');
+ const line = document.getElementById('line');
 
-let angle = 0;
+        // Rotation angle in degrees
+        let angle = 0;
 
-function rotateLine() {
+        // Function to rotate the line
+        function rotateLine() {
+            angle += 1;
+            line.style.transform = `rotate(${angle}deg)`;
 
-  angle++;
+            // Call the rotateLine function again after a small delay
+            requestAnimationFrame(rotateLine);
+        }
 
-  line.style.transform = `rotate(${angle}deg)`;
-
-  requestAnimationFrame(rotateLine);
-}
-
-rotateLine();*/
+        // Start the rotation
+        rotateLine();
