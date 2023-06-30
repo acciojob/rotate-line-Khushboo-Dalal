@@ -1,15 +1,19 @@
 //your JS code here. If required.
-/*const line = document.getElementById('line');
 
-let angle = 0;
+    #line {
+      width: 200px;
+      height: 2px;
+      background-color: black;
+      animation: rotateLine 2s infinite linear;
+		position: absolute;
+    }
 
-function rotateLine() {
-
-  angle++;
-
-  line.style.transform = `rotate(${angle}deg)`;
-
-  requestAnimationFrame(rotateLine);
-}
-
-rotateLine();*/
+    @keyframes rotateLine {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
